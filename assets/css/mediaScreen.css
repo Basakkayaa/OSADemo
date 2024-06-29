@@ -1,0 +1,116 @@
+
+@media (width >1600px) {
+    .background-header{
+        background-size: cover;
+    }
+    
+}
+
+@media (max-width:1500px) {
+    body{
+  
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+   #logo-phone{
+    display: block;
+   }
+    .headerText>h1{
+        font-size: 60px;
+    }
+    .background-header{
+        background-size: cover;
+    }
+    .col>h1,h2,h3{
+        width: 100%;
+    }
+    #about-section{
+        font-size: medium;
+        font-weight: lighter;
+    }
+    #about-section>.text>p{
+        width: 600px;
+    }
+    .row:first-child .col {
+        display: block;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .row:first-child .col:not(:first-child) {
+        display: none;
+        
+    }
+    
+    #section-ball{
+        width: revert-layer;
+    }
+    
+    h1,h2,h3,h4{
+        text-align: center;
+    }
+    #team-section{
+        padding-bottom: 150px;
+    }
+    #team-section>.container{
+        display: flex;
+        flex-direction: column;
+       gap:50px;
+       padding-bottom: 100px;
+    }
+    .col-3{
+        width: 100%;
+    }
+    #res-width{
+        width: 800px;
+        padding: 50px;
+    }
+    #res-width>p{
+        width: 600px;
+    }
+
+    footer>.container{
+     
+            display: flex;
+            justify-content: center;
+    }
+}
+
+@media (max-width: 980px) {
+    #product-container {
+      display: none;
+    }
+    #toogle-product{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #toogle-product-button {
+      display: block;
+      text-align: center;
+      position: relative;
+      left: 44%;
+      right: 40%;
+    }
+  }
+
+
+@media (max-width:800px){
+    /* nav{
+        width: 70%;
+    } */
+    .nav-section{
+        max-width:1100px;
+    }
+    #team{
+        display:none;
+    }
+}
+

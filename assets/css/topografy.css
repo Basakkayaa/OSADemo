@@ -1,0 +1,214 @@
+/* margin */
+
+.mt-12{
+    margin-top: 12px;
+}
+
+.mt-51{
+    margin-top: 51px;
+}
+.mt-49{
+    margin-top: 49px;
+}
+.mt-77{
+    margin-top: 77px;
+}
+.mt-82{
+    margin-top: 82px;
+}
+.mt-85{
+    margin-top: 85px;
+}
+.mt-150{
+    margin-top: 150px;
+}
+/* margin-left */
+
+.ml-10{
+    margin-left: 10px
+    ;
+}
+.ml-44{
+    margin-left: 44px;
+}
+/* ml */
+.mr-73{
+    margin-right: 73px;
+}
+/* mt */
+.mt-15{
+    margin-top: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+/* padding */
+
+.p-10{
+    padding: 10px;
+}
+.pt-77{
+    padding-top: 77px;
+}
+
+.pb-60{
+    padding-bottom: 60px;
+}
+.pb-150{
+    padding-bottom: 150px;
+}
+
+.pr-30{
+    padding-right: 30px;
+}
+
+
+/* gap */
+.gap-12{
+    gap: 12px;
+}
+
+.gap-14{
+    gap: 14px;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-25{
+    gap: 25px;
+}
+.gap-29{
+    gap: 29px;
+}
+
+.gap-39{
+    gap: 39px;
+}
+
+.gap-49{
+    gap: 49px;
+}
+
+.gap-91{
+    gap: 91px;
+}
+
+
+/* top */
+.top-60{
+    top: 60px;
+}
+.top-90{
+    top: 90px;
+}
+.top-240{
+    top: 240px;
+}
+
+/* font */
+.font-400{
+    font-weight: 400;
+}
+.font-500{
+    font-weight: 500;
+}
+.font-600{
+    font-weight: 600;
+}
+
+/* text */
+.text-12{
+    font-size: 12px;
+}
+.text-14{
+    font-size: 14px;
+}
+.text-16{
+    font-size: 16px;
+}
+.text-18{
+    font-size: 18.2px;
+}
+.text-20{
+    font-size: 20px;
+}
+.text-29{
+    font-size: 29px;
+}
+.text-32{
+    font-size: 32px;
+}
+
+.text-70{
+    font-size: 70px;
+}
+.text-128{
+    font-size: 128px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+/* line-he */
+.line-18{
+    line-height: 18.2px;
+}
+.line-19{
+    line-height: 19.2px;
+}
+.line-22{
+    line-height: 22px;
+}
+.line-25{
+    line-height: 25.02px;
+}
+.line-28{
+    line-height: 28px;
+}
+.line-31{
+    line-height: 31px;
+}
+.line-33{
+    line-height: 33px;
+}
+.line-41{
+    line-height: 41.2px;
+}
+.line-73{
+    line-height: 73.3px;
+}
+
+.line-134{
+    line-height: 134.2px;
+}
+
+/* border */
+
+.border-right{
+    border-right: 1px solid var(--second-color);
+}
+
+.border-right-foot{
+    border-right: 1px solid var(--foot-color);
+}
+
+/* bottom85 */
+.bottom-85{
+    bottom: 60px;
+}
+
+/* font-family */
+
+
+.font-onest{
+    font-family: 'Onest', sans-serif;
+}
+
+.font-anton{
+    font-family: 'Anton', sans-serif;
+}
+
+.font-oswald{
+    font-family: 'oswald', sans-serif;
+}

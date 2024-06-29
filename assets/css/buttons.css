@@ -1,0 +1,49 @@
+.nav-link:hover{
+    border-bottom: 2px solid var(--third-color);
+    transition: 0.10s;
+ 
+}
+
+.active {
+    border-bottom: 2px solid var(--third-color);
+ 
+}
+.btnHead{
+    width: 326px;
+    height: 60px;
+    background-color: var(--third-color);
+    color: var(--second-color);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18.85px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.btnHead:hover{
+    border: 1px solid var(--first-color);
+    color: var(--second-color);
+}
+
+
+.btnWidth{
+    height: 50px;
+    width: 236px;
+}
+
+.btnBanner{
+    border: 1px solid var(--second-color);
+    border-radius: 12px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    text-align: centers;
+}
+
+
+.btnBanner>a{
+    width: 137px;
+}

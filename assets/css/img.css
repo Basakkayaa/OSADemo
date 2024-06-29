@@ -1,0 +1,95 @@
+.positionIcon{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 27px;
+}
+
+
+.icon-nav{
+    width: 73px;
+}
+
+.imgHeader{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    background-size: cover;
+    height: 720px;
+    width: 100%;
+}
+
+.imgBottom{
+    background-image: url(../img/home/bottom-shapes.svg); 
+}
+.bottomImg{
+    height: 130px;
+    width: auto;
+    position: relative;
+    top: 30px;
+    z-index: -1;
+}
+
+
+
+/* banner */
+
+.card-img-top{
+  
+    height: 207px;
+    border-radius: 12px;
+}
+
+/*  */
+
+.storeImg{
+    Width: 470px;
+    height: 288px;
+}
+
+
+
+.img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.bottom-blue{
+    background-image: url(../img/home/top-shapes.svg);
+    height: 160px;
+    /* background-size: contain; */
+    position: relative;
+    top: -13px;
+}
+
+.imgFoot{
+    width: 100%;
+    height: 780px;
+    position: relative;
+}
+
+
+.position-shapes{
+    background-image: url("../img/home/Vector 3.png");
+    width: 100%;
+    height: 152px;
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    position: absolute;
+    bottom: -50px;
+
+}
+
+
+.btnWidth2{
+    width: 215px;
+    height: 50px;
+}
+
+.footer-vektor{
+    position: relative;
+    top: 48px;
+    width: 100%;
+}

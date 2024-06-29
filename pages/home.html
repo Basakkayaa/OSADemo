@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OSA</title>
+  <link rel="website icon" href="../assets/img/osa-logo.svg" type="website icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="position-relative">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-section">
+      <div class="container-fluid">
+        <div class="language-toggle">
+          <span class="font-400 text-18 font-oswald line-18 me-1">EN</span>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <span class="ms-1 font-400 text-18 font-oswald line-18" style="color: rgba(200, 200, 200, 1);">ES</span>
+        </div>
+        <div class="collapse navbar-collapse gap-49" id="navbarNav">
+          <ul class="navbar-nav mx-auto gap-49">
+            <li class="nav-item">
+              <a class="nav-link nav-link-tpgf" href="./founding.html">Founding Staff</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-tpgf" href="./key.html">Key Differentiators</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-tpgf" href="./alliance.html">Why an Alliance</a>
+            </li>
+
+          </ul>
+          <div class="position-relative" style="top: 26px;">
+            <a class="navbar-brand" href="#">
+              <img src="../assets/img/osa-logo.svg" alt="Logo" width="126" height="181">
+            </a>
+          </div>
+          <ul class="navbar-nav mx-auto gap-49">
+            <li class="nav-item">
+              <a class="nav-link nav-link-tpgf" href="./principles.html">Our Principles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-tpgf" href="./plan.html">Plan & Timeline</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-tpgf" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="d-flex gap-29 icon-nav align-items-center">
+
+          <a href=""> <svg width="22.02" height="19.94" viewBox="0 0 23 21" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17.3384 0.453857H20.7142L13.339 8.89958L22.0154 20.3923H15.2219L9.90094 13.422L3.81259 20.3923H0.434736L8.32323 11.3587L0 0.453857H6.96596L11.7756 6.82496L17.3384 0.453857ZM16.1536 18.3678H18.0242L5.94953 2.37204H3.94219L16.1536 18.3678Z"
+                fill="black" />
+            </svg>
+          </a>
+          <div class="position-relative"  id="logo-phone">
+            <a class="navbar-brand" href="#">
+              <img src="../assets/img/osa-logo.svg" alt="Logo" width="60" height="60">
+            </a>
+          </div>
+          <a href=""> <svg width="22.85" height="22.85" viewBox="0 0 23 23" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.2777 5.38396C16.2777 4.71689 16.8193 4.17613 17.4875 4.17613C18.1556 4.17613 18.6973 4.71689 18.6973 5.38396C18.6973 6.05102 18.1556 6.59178 17.4875 6.59178C16.8193 6.59178 16.2777 6.05102 16.2777 5.38396Z"
+                fill="black" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.4384 5.68591C8.2647 5.68591 5.69187 8.25453 5.69187 11.4231C5.69187 14.5916 8.2647 17.1602 11.4384 17.1602C14.6122 17.1602 17.185 14.5916 17.185 11.4231C17.185 8.25453 14.6122 5.68591 11.4384 5.68591ZM7.50658 11.4231C7.50658 9.25512 9.26693 7.49765 11.4384 7.49765C13.61 7.49765 15.3703 9.25512 15.3703 11.4231C15.3703 13.591 13.61 15.3485 11.4384 15.3485C9.26693 15.3485 7.50658 13.591 7.50658 11.4231Z"
+                fill="black" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M17.7999 0.35097C13.606 -0.11699 9.27089 -0.11699 5.07701 0.35097C2.64282 0.622582 0.677696 2.537 0.391513 4.97986C-0.109997 9.26075 -0.109997 13.5854 0.391513 17.8663C0.677696 20.3092 2.64282 22.2236 5.07702 22.4952C9.27089 22.9631 13.606 22.9631 17.7999 22.4952C20.2341 22.2236 22.1992 20.3092 22.4854 17.8663C22.9869 13.5854 22.9869 9.26075 22.4854 4.97986C22.1992 2.537 20.2341 0.622582 17.7999 0.35097ZM5.27858 2.1515C9.3385 1.69848 13.5384 1.69848 17.5983 2.1515C19.2075 2.33105 20.4965 3.5988 20.683 5.19032C21.1681 9.33138 21.1681 13.5148 20.683 17.6558C20.4965 19.2474 19.2075 20.5151 17.5983 20.6947C13.5384 21.1477 9.3385 21.1477 5.27858 20.6947C3.66941 20.5151 2.38038 19.2474 2.19393 17.6558C1.7088 13.5148 1.7088 9.33138 2.19393 5.19032C2.38038 3.5988 3.66941 2.33105 5.27858 2.1515Z"
+                fill="black" />
+            </svg></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      </div>
+    </nav>
+    <div class="background-header"></div>
+    <!-- <img src="../assets/img/home/background.png" alt="background" class="imgHeader"> -->
+    <div class="headerText">
+      <h1 class="text-light text-large">OPEN SOCCER ALLIANCE LAUNCHES WITH AUTHENTIC VISION</h1>
+    </div>
+    <div class="d-flex justify-content-center position-relative top-90">
+      <button type="button" class=" btn btnHead">
+        <a href="#" class="nav-link font-500">JOIN US NOW!</a>
+      </button>
+    </div>
+      <!-- <img src="../assets/img/home/bottom-shapes.svg" alt=""> -->
+    </div>
+   
+    <div class='bottomImg imgBottom mb-1'></div>
+  </header>
+
+
+
+  <!-- main start -->
+  <main class="position-relative">
+    <section id="about-section" class="hero">
+      <div class="text">
+        <p class="font-400 text-20 line-28">Open Soccer Alliance intends to fill a void in the American soccer landscape
+          by providing an authentic and affordable open system structure of professional and amateur soccer clubs
+          governed by its member clubs.</p>
+      </div>
+      <div class="container mt-150">
+        <h1 class='font-400 text-light text-70'>Tournament's schedule</h1>
+        <div class="container text-center mt-77">
+          <div class="row gap-91">
+            <div class="col colBanner">
+              <div class="card">
+                <p class="font-onest text-light">February to March, 2024</p>
+                <img src="../assets/img/home/schedule-banner-1.png" class="card-img-top mt-15" alt="banner1">
+                <div class="mt-20">
+                  <h5 class="card-title font-400 font-anton text-29 line-33 text-light">Avalanche FC - Phoenix United
+                  </h5>
+                  <p class="font-400 text-18 font-onest text-light line-25">Some quick example text to build on the card
+                    title and make up the bulk of the card's content.</p>
+                  <button class="nav-link btnBanner btnWidth text-light mt-20">
+                    <a href="#" class="nav-link font-500 text-16 font-oswald">SEE ANNOUNCE</a>
+                    <svg width="21" height="15" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="">
+                      <path
+                        d="M12.8236 2.52157C12.3505 2.05911 12.3505 1.30931 12.8236 0.846847C13.2968 0.384384 14.0639 0.384384 14.537 0.846847L20.9985 7.16264C21.4717 7.6251 21.4717 8.3749 20.9985 8.83736L14.537 15.1532C14.0639 15.6156 13.2968 15.6156 12.8236 15.1532C12.3505 14.6907 12.3505 13.9409 12.8236 13.4784L17.2169 9.18421H1.56493C0.895818 9.18421 0.353394 8.65402 0.353394 8C0.353394 7.34598 0.895818 6.81579 1.56493 6.81579H17.2169L12.8236 2.52157Z"
+                        fill="#E6224B" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col colBanner">
+              <div class="card">
+                <p class="font-onest text-light">February to March, 2024</p>
+                <img src="../assets/img/home/schedule-banner-2.png" class="card-img-top mt-15" alt="banner2">
+                <div class="mt-20">
+                  <h5 class="card-title font-400 font-anton text-29 line-33 text-light">Avalanche FC - Phoenix United
+                  </h5>
+                  <p class="card-text font-400 text-18 font-onest text-light line-25">Some quick example text to build
+                    on the card title and make up the bulk of the card's content.</p>
+                  <button class="nav-link btnBanner btnWidth text-light mt-20">
+                    <a href="#" class="nav-link font-500 text-16 font-oswald">SEE ANNOUNCE</a>
+                    <svg width="21" height="15" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="">
+                      <path
+                        d="M12.8236 2.52157C12.3505 2.05911 12.3505 1.30931 12.8236 0.846847C13.2968 0.384384 14.0639 0.384384 14.537 0.846847L20.9985 7.16264C21.4717 7.6251 21.4717 8.3749 20.9985 8.83736L14.537 15.1532C14.0639 15.6156 13.2968 15.6156 12.8236 15.1532C12.3505 14.6907 12.3505 13.9409 12.8236 13.4784L17.2169 9.18421H1.56493C0.895818 9.18421 0.353394 8.65402 0.353394 8C0.353394 7.34598 0.895818 6.81579 1.56493 6.81579H17.2169L12.8236 2.52157Z"
+                        fill="#E6224B" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col colBanner">
+              <div class="card">
+                <p class="font-onest text-light">February to March, 2024</p>
+                <img src="../assets/img/home/schedule-banner-3.png" class="card-img-top mt-15" alt="banner3">
+                <div class="mt-20">
+                  <h5 class="card-title font-400 font-anton text-29 line-33 text-light">Avalanche FC - Phoenix United
+                  </h5>
+                  <p class="card-text font-400 text-18 font-onest text-light line-25">Some quick example text to build
+                    on the card title and make up the bulk of the card's content.</p>
+                  <button class="nav-link btnBanner btnWidth text-light mt-20">
+                    <a href="#" class="nav-link font-500 text-16 font-oswald">SEE ANNOUNCE</a>
+                    <svg width="21" height="15" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="">
+                      <path
+                        d="M12.8236 2.52157C12.3505 2.05911 12.3505 1.30931 12.8236 0.846847C13.2968 0.384384 14.0639 0.384384 14.537 0.846847L20.9985 7.16264C21.4717 7.6251 21.4717 8.3749 20.9985 8.83736L14.537 15.1532C14.0639 15.6156 13.2968 15.6156 12.8236 15.1532C12.3505 14.6907 12.3505 13.9409 12.8236 13.4784L17.2169 9.18421H1.56493C0.895818 9.18421 0.353394 8.65402 0.353394 8C0.353394 7.34598 0.895818 6.81579 1.56493 6.81579H17.2169L12.8236 2.52157Z"
+                        fill="#E6224B" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-77" id="team-section"  class="schedule">
+      <div class="container text-start pb-60">
+        <div class="row justify-content-center gap-12">
+          <div class="col-3">
+            <h1 class="font-400 text-70 line-73 font-anton text-light">About OSA Team</h1>
+          </div>
+          <div class="col gap-12 d-flex flex-column" id="res-width">
+            <p class="font-onest font-400 text-16 line-25 text-light text-justify">
+              The founders of the Open Soccer
+              Alliance intentionally chose the word “Alliance” to reflect the desired nature and vision of this entity.
+              <br><br>
+              OSA intends to unite likeminded clubs
+              and leagues throughout the United States who share the desire to play soccer in an open system in the way
+              the game is structured in the rest of the world.
+              <br><br>
+              The mission of OSA shares much of the
+              new non-profit United Soccer America’s mission. USA is a partner of OSA and its mission is to unite and
+              grow American soccer into the nation’s preeminent sport by championing the beautiful game’s universal
+              principles of sporting merit, solidarity, promotion and relegation, and subsidiarity across all 50 states.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-150 gap-25" id="team">
+          <div class="col-sm d-flex justify-content-center align-items-center gap-25">
+            <img src="../assets/img/home/team-1.png" alt="" class="img">
+            <div>
+              <div class="d-flex gap-12">
+                <h3 class="border-right font-400 font-anton text-32 line-33 text-light">MICHAEL COLLINS</h3>
+                <p class="font-600 text-20 font-onest line-22 text-light text-lowercase">CHIEF EXECUTIVE OFFICER</p>
+              </div>
+              <button class="nav-link btnBanner text-light mt-20" style="width: 206px;height: 50px;">
+                <a href="#" class="nav-link font-500 text-16 font-oswald">SEE ANNOUNCE</a>
+                <svg width="21" height="15" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="">
+                  <path
+                    d="M12.8236 2.52157C12.3505 2.05911 12.3505 1.30931 12.8236 0.846847C13.2968 0.384384 14.0639 0.384384 14.537 0.846847L20.9985 7.16264C21.4717 7.6251 21.4717 8.3749 20.9985 8.83736L14.537 15.1532C14.0639 15.6156 13.2968 15.6156 12.8236 15.1532C12.3505 14.6907 12.3505 13.9409 12.8236 13.4784L17.2169 9.18421H1.56493C0.895818 9.18421 0.353394 8.65402 0.353394 8C0.353394 7.34598 0.895818 6.81579 1.56493 6.81579H17.2169L12.8236 2.52157Z"
+                    fill="#E6224B" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="col-sm d-flex justify-content-center align-items-center gap-25">
+            <img src="../assets/img/home/team-2.png" alt="" class="img">
+            <div>
+              <div class="d-flex gap-12">
+                <h3 class="border-right font-400 font-anton text-32 line-33 text-light">PETER J. WILT</h3>
+                <p class="font-600 text-20 font-onest line-22 text-light text-lowercase">CHIEF STRATEGY OFFICER</p>
+              </div>
+              <button class="nav-link btnBanner text-light mt-20" style="width: 206px;height: 50px;">
+                <a href="#" class="nav-link font-500 text-16 font-oswald">SEE ANNOUNCE</a>
+                <svg width="21" height="15" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="">
+                  <path
+                    d="M12.8236 2.52157C12.3505 2.05911 12.3505 1.30931 12.8236 0.846847C13.2968 0.384384 14.0639 0.384384 14.537 0.846847L20.9985 7.16264C21.4717 7.6251 21.4717 8.3749 20.9985 8.83736L14.537 15.1532C14.0639 15.6156 13.2968 15.6156 12.8236 15.1532C12.3505 14.6907 12.3505 13.9409 12.8236 13.4784L17.2169 9.18421H1.56493C0.895818 9.18421 0.353394 8.65402 0.353394 8C0.353394 7.34598 0.895818 6.81579 1.56493 6.81579H17.2169L12.8236 2.52157Z"
+                    fill="#E6224B" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="col-sm d-flex justify-content-center align-items-center gap-25">
+            <img src="../assets/img/home/team-3.png" alt="" class="img">
+            <div>
+              <div class="d-flex gap-12">
+                <h3 class="border-right font-400 font-anton text-32 line-33 text-light pe-2">CHRIS RUFFALO</h3>
+                <p class="font-600 text-20 font-onest line-22 text-light text-lowercase">CHIEF OPERATING OFFICER</p>
+              </div>
+              <button class="nav-link btnBanner text-light mt-20" style="width: 206px;height: 50px;">
+                <a href="#" class="nav-link font-500 text-16 font-oswald">SEE ANNOUNCE</a>
+                <svg width="21" height="15" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="">
+                  <path
+                    d="M12.8236 2.52157C12.3505 2.05911 12.3505 1.30931 12.8236 0.846847C13.2968 0.384384 14.0639 0.384384 14.537 0.846847L20.9985 7.16264C21.4717 7.6251 21.4717 8.3749 20.9985 8.83736L14.537 15.1532C14.0639 15.6156 13.2968 15.6156 12.8236 15.1532C12.3505 14.6907 12.3505 13.9409 12.8236 13.4784L17.2169 9.18421H1.56493C0.895818 9.18421 0.353394 8.65402 0.353394 8C0.353394 7.34598 0.895818 6.81579 1.56493 6.81579H17.2169L12.8236 2.52157Z"
+                    fill="#E6224B" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="news-section" class="team">
+      <div class="bottom-blue"></div>
+      <div class="container">
+        <h1 class="font-400 text-70 font-anton line-73 text-light mt-77">Latest News</h1>
+        <div class="container text-center mt-82">
+          <div class="row gap-91">
+            <div class="col">
+              <div class="card">
+                <p class="font-onest text-light">February to March, 2024</p>
+                <img src="../assets/img/home/news-1.png" class="card-img-top mt-15" alt="banner1">
+                <div class="mt-20">
+                  <h5 class="card-title font-400 font-anton text-32 line-41 text-light">OPEN SOCCER ALLIANCE PARTNERS
+                    WITH GAMERAILZ</h5>
+                  <p class="font-400 text-18 font-onest text-light line-25">The Legends Cup is no ordinary tournament.
+                    It’s a clash of titans, where seasoned veterans and rising stars collide. </p>
+                  <button class="nav-link btnBanner btnWidth text-light mt-20">
+                    <a href="#" class="nav-link font-500 text-16 font-oswald">LEARN MORE</a>
+                    <svg width="21" height="15" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="">
+                      <path
+                        d="M12.8236 2.52157C12.3505 2.05911 12.3505 1.30931 12.8236 0.846847C13.2968 0.384384 14.0639 0.384384 14.537 0.846847L20.9985 7.16264C21.4717 7.6251 21.4717 8.3749 20.9985 8.83736L14.537 15.1532C14.0639 15.6156 13.2968 15.6156 12.8236 15.1532C12.3505 14.6907 12.3505 13.9409 12.8236 13.4784L17.2169 9.18421H1.56493C0.895818 9.18421 0.353394 8.65402 0.353394 8C0.353394 7.34598 0.895818 6.81579 1.56493 6.81579H17.2169L12.8236 2.52157Z"
+                        fill="#E6224B" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <p class="font-onest text-light">February to March, 2024</p>
+                <img src="../assets/img/home/news-2.png" class="card-img-top mt-15" alt="banner2">
+                <div class="mt-20">
+                  <h5 class="card-title font-400 font-anton text-32 line-41 text-light">OPEN SOCCER ALLIANCE PARTNERS
+                    WITH GAMERAILZ</h5>
+                  <p class="font-400 text-18 font-onest text-light line-25">The Legends Cup is no ordinary tournament.
+                    It’s a clash of titans, where seasoned veterans and rising stars collide. </p>
+                  <button class="nav-link btnBanner btnWidth text-light mt-20">
+                    <a href="#" class="nav-link font-500 text-16 font-oswald">LEARN MORE</a>
+                    <svg width="21" height="15" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="">
+                      <path
+                        d="M12.8236 2.52157C12.3505 2.05911 12.3505 1.30931 12.8236 0.846847C13.2968 0.384384 14.0639 0.384384 14.537 0.846847L20.9985 7.16264C21.4717 7.6251 21.4717 8.3749 20.9985 8.83736L14.537 15.1532C14.0639 15.6156 13.2968 15.6156 12.8236 15.1532C12.3505 14.6907 12.3505 13.9409 12.8236 13.4784L17.2169 9.18421H1.56493C0.895818 9.18421 0.353394 8.65402 0.353394 8C0.353394 7.34598 0.895818 6.81579 1.56493 6.81579H17.2169L12.8236 2.52157Z"
+                        fill="#E6224B" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <p class="font-onest text-light">February to March, 2024</p>
+                <img src="../assets/img/home/news-3.png" class="card-img-top mt-15" alt="banner3">
+                <div class="mt-20">
+                  <h5 class="card-title font-400 font-anton text-32 line-41 text-light">OPEN SOCCER ALLIANCE PARTNERS
+                    WITH GAMERAILZ</h5>
+                  <p class="font-400 text-18 font-onest text-light line-25">The Legends Cup is no ordinary tournament.
+                    It’s a clash of titans, where seasoned veterans and rising stars collide. </p>
+                  <button class="nav-link btnBanner btnWidth text-light mt-20">
+                    <a href="#" class="nav-link font-500 text-16 font-oswald">LEARN MORE</a>
+                    <svg width="21" height="15" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      class="">
+                      <path
+                        d="M12.8236 2.52157C12.3505 2.05911 12.3505 1.30931 12.8236 0.846847C13.2968 0.384384 14.0639 0.384384 14.537 0.846847L20.9985 7.16264C21.4717 7.6251 21.4717 8.3749 20.9985 8.83736L14.537 15.1532C14.0639 15.6156 13.2968 15.6156 12.8236 15.1532C12.3505 14.6907 12.3505 13.9409 12.8236 13.4784L17.2169 9.18421H1.56493C0.895818 9.18421 0.353394 8.65402 0.353394 8C0.353394 7.34598 0.895818 6.81579 1.56493 6.81579H17.2169L12.8236 2.52157Z"
+                        fill="#E6224B" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-ball" class="news">
+      <div class="position-relative d-flex flex-column align-items-center justify-content-center text-center">
+        <img src="../assets/img/home/background foot.png" alt="" class="imgFoot">
+        <div class="text-mission">
+          <h1 class="font-anton font-400 text-128 text-light line-134 text-center position-absolute top-240 ">The mission
+            is to unite and grow American soccer </h1>
+        </div>
+        <button type="button" class=" btn btnHead position-absolute  z-1 bottom-85">
+          <a href="#" class="nav-link font-500">JOIN US NOW!</a>
+        </button>
+      </div>
+      <div class='position-shapes'></div>
+    </section>
+    <section id="product-section" class="mission">
+      <div class="container">
+        <div class="row gap-12" id="toogle-product">
+          <div class="col pe-2">
+            <h2 class="font-anton font-400  text-70 line-73 text-light">GRAB YOUR OFFICIAL osa GEAR</h2>
+            <p class="font-onest font-400 text-18 line-25 text-light mt-51" style="width:283px; height: 63px;">First edition
+              team gear, hoodies, OSA t-shirts & more</p>
+          </div>
+          <div class="col">
+            <img src="../assets/img/home/store-1.png" alt="store1" class="storeImg">
+            <div class="d-flex align-items-center gap-3 mt-12 text-end d-flex justify-content-end">
+              <p class="font-anton font-400 text-24 line-31 text-light">OSA OFFICIAL T-SHIRT, $299.99</p>
+              <button class="nav-link btnBanner btnWidth2 text-light">
+                <a href="#" class="nav-link font-500 text-16 font-oswald">LEARN MORE</a>
+                <svg width="21" height="15" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="">
+                  <path
+                    d="M12.8236 2.52157C12.3505 2.05911 12.3505 1.30931 12.8236 0.846847C13.2968 0.384384 14.0639 0.384384 14.537 0.846847L20.9985 7.16264C21.4717 7.6251 21.4717 8.3749 20.9985 8.83736L14.537 15.1532C14.0639 15.6156 13.2968 15.6156 12.8236 15.1532C12.3505 14.6907 12.3505 13.9409 12.8236 13.4784L17.2169 9.18421H1.56493C0.895818 9.18421 0.353394 8.65402 0.353394 8C0.353394 7.34598 0.895818 6.81579 1.56493 6.81579H17.2169L12.8236 2.52157Z"
+                    fill="#E6224B" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="col">
+              <img src="../assets/img/home/store-2.png" alt="store1" class="storeImg">
+              <div class="d-flex align-items-center gap-3 mt-12 text-end d-flex justify-content-end">
+                <p class="font-anton font-400 text-24 line-31 text-light">OSA OFFICIAL T-SHIRT, $299.99</p>
+                <button class="nav-link btnBanner btnWidth2 text-light">
+                  <a href="#" class="nav-link font-500 text-16 font-oswald">LEARN MORE</a>
+                  <svg width="21" height="15" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="">
+                    <path
+                      d="M12.8236 2.52157C12.3505 2.05911 12.3505 1.30931 12.8236 0.846847C13.2968 0.384384 14.0639 0.384384 14.537 0.846847L20.9985 7.16264C21.4717 7.6251 21.4717 8.3749 20.9985 8.83736L14.537 15.1532C14.0639 15.6156 13.2968 15.6156 12.8236 15.1532C12.3505 14.6907 12.3505 13.9409 12.8236 13.4784L17.2169 9.18421H1.56493C0.895818 9.18421 0.353394 8.65402 0.353394 8C0.353394 7.34598 0.895818 6.81579 1.56493 6.81579H17.2169L12.8236 2.52157Z"
+                      fill="#E6224B" />
+                  </svg>
+                </button>
+              </div>  
+          </div>
+            <div>
+              <button id="toogle-product-button" class="hidden">Go</button>
+            </div>
+        </div>
+   
+      
+      </div>
+      <div class="container pb-150">
+        <div class="d-flex flex-column gap-2 align-items-center justify-content-center" style="margin-top: 200px;">
+          <h1 class="font-anton font-400 text-70 line-73 text-light text-center">DON'T MISS ANYTHING</h1>
+          <p class="font-onest font-400 text-18 line-25 text-light text-center">Enter your email address below to hear
+            about the latest OSA updates!</p>
+          <div class="subscription-container mt-49">
+            <form class="subscription-form">
+              <input type="email" placeholder="EMAIL ADDRESS">
+            </form>
+            <button type="submit" class="subscribe-button">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bd-footer" style="background-color:var(--second-color)" class="footer">
+    <div class="position-relative" style="top: -48px;">
+      <img src="../assets/img/home/Vector 5.svg" alt="" class="footer-vektor">
+      <div class="position-relative d-flex justify-content-center">
+        <div class="ball">
+          <svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0.328164 37.377C0.328164 36.4886 0.0735684 23.9231 7.5843 15.6731C7.96621 14.9116 9.49381 11.9924 14.5858 8.43851C16.8772 6.66158 19.296 5.13851 21.7147 3.74235C21.9693 3.61543 28.207 0.31543 35.7177 0.31543C36.2269 0.31543 36.8634 0.315418 37.3726 0.442341C43.1012 0.315418 48.8297 1.8385 52.2668 3.36158C55.322 4.75774 58.6318 7.04235 58.8864 7.16928C63.0874 9.58082 71.1073 18.9731 71.7438 23.9231C74.2898 27.2231 76.4539 41.8193 71.7438 50.7039C68.434 63.1424 56.0858 69.2347 55.0674 69.7424C54.4309 70.1232 47.684 74.3117 39.4095 74.3117C39.0276 74.3117 36.9907 74.4386 36.2269 74.4386C27.3159 74.4386 13.9493 68.0924 11.1487 63.1424C3.63798 57.5578 -0.308339 43.2155 0.328164 37.377ZM55.0674 56.0347C58.6318 50.3232 60.6687 42.8347 61.0506 41.0578C59.9049 39.4078 54.4309 31.1578 51.2484 28.7462C49.4662 29.127 41.9555 30.3962 34.9539 31.6655C34.0628 33.9501 30.2438 44.104 29.0981 47.9116C30.3711 49.3078 35.0812 55.0194 39.9187 59.3347C44.8834 59.4617 53.5398 56.5424 55.0674 56.0347ZM10.3849 15.8001C10.3849 16.3078 10.5122 18.3385 11.5306 20.6231C13.4401 19.6078 18.1502 17.577 24.6426 17.3231C25.661 15.927 29.3527 10.8501 35.2085 7.29621C34.4447 5.77313 33.299 3.86927 32.6625 3.23465C32.4079 3.23465 32.1533 3.10774 31.6441 3.10774C28.4616 3.10774 23.115 5.13851 22.6058 5.39236C22.0966 5.64621 12.2944 10.8501 10.3849 15.8001ZM62.5782 39.9155C66.7791 39.1539 69.3251 37.8847 70.0889 37.377C71.6165 31.6655 70.3435 25.4462 70.2162 24.6847C68.6886 21.8924 64.2331 14.7847 61.3052 13.5154C58.2499 12.8808 54.5582 13.6424 52.9033 14.0231C53.0306 16.0539 53.2852 21.6385 52.5214 27.477C55.8312 30.0155 61.1779 37.7578 62.5782 39.9155ZM37.8818 2.21928C36.9907 2.3462 35.5904 2.47312 34.572 2.72696C35.4631 3.9962 36.4815 5.90004 36.9907 6.7885C38.9003 7.16927 46.2837 8.56543 52.1395 12.2462C53.2852 11.9924 56.8496 11.1039 60.1594 11.3577C59.2683 9.70775 58.1226 8.56543 57.9953 8.43851C57.4861 8.18466 48.5751 2.09236 37.8818 2.21928ZM14.2039 49.3078C15.6042 49.3078 21.2055 48.927 27.3159 47.5309C28.4616 43.4693 32.4079 33.4424 33.299 31.1578C30.4984 27.0962 27.5705 23.1616 24.7699 19.227C17.7684 19.6078 12.8036 22.1462 11.7852 22.6539C7.7116 29.2539 6.8205 35.8539 6.69319 36.9962C8.8573 43.7232 13.0582 48.1655 14.2039 49.3078ZM72.6349 33.0616C72.5076 34.5847 72.253 36.2347 71.8711 37.8847C72.253 38.9001 72.5076 40.0424 72.7622 41.1847C72.8895 38.5193 72.8895 35.727 72.6349 33.0616ZM60.6687 61.8732C58.7591 60.0963 56.4677 58.3193 55.5766 57.6847C53.5398 58.4463 45.2653 61.2386 39.9187 61.2386C39.0275 62.3809 36.0996 66.1886 32.4079 69.1078C34.6993 71.2655 37.8818 72.2809 38.5183 72.5348C48.7024 72.7886 58.5045 67.0771 60.6687 61.8732ZM34.0628 72.5348C32.9171 71.9001 31.7714 71.0117 30.753 69.8694C29.0981 69.6155 22.2239 68.4732 15.9861 63.904C15.6042 63.904 14.8404 64.0309 14.0766 64.0309C17.8957 67.5847 27.0613 71.6463 34.0628 72.5348ZM14.9677 62.127C12.6763 56.2886 12.8036 51.9732 12.9309 50.577C11.6579 49.4347 7.457 44.8655 5.16559 38.1385C3.89258 38.3924 3.12878 38.6462 2.74688 38.9001C2.61958 39.4078 2.36498 40.5501 2.49228 42.327C3.38338 48.5463 6.69319 57.9386 12.549 62.0001C13.0582 62.1271 14.0766 62.127 14.9677 62.127Z"
+              fill="#052677" />
+          </svg>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class=" d-flex align-items-center pb-3 gap-49 ">
+        <div class="">
+          <a class="d-inline-flex align-items-center" href="/" aria-label="Bootstrap">
+            <img src="../assets/img/osa-logo.svg" alt="logo" class="logoFoot">
+
+          </a>
+        </div>
+        <div class=" d-flex flex-column gap-39">
+          <ul class="list-unstyled d-flex gap-49 text-uppercase font-400 text-18 line-18 font-oswald"
+            style="color: var(--first-color);">
+            <li><a href="/" class=" nav-link text-16 font-oswald ">Founding Staff</a></li>
+            <li><a href="./key.html" class="nav-link text-16 font-oswald ">Key Differentiators</a></li>
+            <li><a href="./alliance.html" class="nav-link text-16 font-oswald ">Why an Alliance</a></li>
+            <li><a href="./principles.html" class="nav-link text-16 font-oswald ">our Principles</a></li>
+            <li><a href="./plan.html" class="nav-link text-16 font-oswald ">Plan & Timeline</a></li>
+            <li><a href="./contact.html" class="nav-link text-16 font-oswald ">contact</a></li>
+          </ul>
+          <div class="d-flex gap-14">
+            <div class="font-400 text-12 font-onest line-19" style="color: var(--foot-color);">Copyright © 2024 open soccer alliance. All Rights Reserved. </div>
+            <div class="d-flex gap-14" style="color: var(--foot-color);">
+              <p class="border-right-foot pe-3 font-400 text-12 font-onest line-19" style="color: var(--foot-color);">CAREERS</p>
+              <P class="border-right-foot pe-3 font-400 text-12 font-onest line-19" style="color: var(--foot-color);">CONTACT</P>
+              <p class="font-400 text-12 font-onest line-19" style="color: var(--foot-color);"> PRIVACY POLICY</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column gap-39">
+          <h4 class="text-uppercase font-400 text-16 line-18 font-oswald" style="color: var(--first-color);">Follow us
+            in social media</h4>
+          <div class="media">
+            <ul class="d-flex gap-20 align-items-center ms-4">
+              <li>
+                <a href="#">
+                <svg width="22.85" height="19.94" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.3384 0.0307617H20.7142L13.339 8.47649L22.0154 19.9692H15.2219L9.90094 12.9989L3.81259 19.9692H0.434736L8.32323 10.9356L0 0.0307617H6.96596L11.7756 6.40187L17.3384 0.0307617ZM16.1536 17.9447H18.0242L5.94953 1.94894H3.94219L16.1536 17.9447Z" fill="black"/>
+                </svg>
+                </a>
+              </li>
+              <li><a href="#">
+                <svg width="22.85" height="22.85" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.2777 5.9611C16.2777 5.29404 16.8193 4.75328 17.4875 4.75328C18.1556 4.75328 18.6973 5.29404 18.6973 5.9611C18.6973 6.62817 18.1556 7.16893 17.4875 7.16893C16.8193 7.16893 16.2777 6.62817 16.2777 5.9611Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4384 6.26306C8.2647 6.26306 5.69187 8.83168 5.69187 12.0002C5.69187 15.1688 8.2647 17.7374 11.4384 17.7374C14.6122 17.7374 17.185 15.1688 17.185 12.0002C17.185 8.83168 14.6122 6.26306 11.4384 6.26306ZM7.50658 12.0002C7.50658 9.83227 9.26693 8.0748 11.4384 8.0748C13.61 8.0748 15.3703 9.83227 15.3703 12.0002C15.3703 14.1682 13.61 15.9257 11.4384 15.9257C9.26693 15.9257 7.50658 14.1682 7.50658 12.0002Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.7999 0.928119C13.606 0.460158 9.27089 0.460158 5.07701 0.928119C2.64282 1.19973 0.677696 3.11415 0.391513 5.557C-0.109997 9.83789 -0.109997 14.1626 0.391513 18.4434C0.677696 20.8863 2.64282 22.8007 5.07702 23.0723C9.27089 23.5403 13.606 23.5403 17.7999 23.0723C20.2341 22.8007 22.1992 20.8863 22.4854 18.4434C22.9869 14.1626 22.9869 9.83789 22.4854 5.557C22.1992 3.11415 20.2341 1.19973 17.7999 0.928119ZM5.27858 2.72864C9.3385 2.27563 13.5384 2.27563 17.5983 2.72864C19.2075 2.9082 20.4965 4.17595 20.683 5.76747C21.1681 9.90853 21.1681 14.0919 20.683 18.233C20.4965 19.8245 19.2075 21.0923 17.5983 21.2718C13.5384 21.7248 9.3385 21.7248 5.27858 21.2718C3.66941 21.0923 2.38038 19.8245 2.19393 18.233C1.7088 14.0919 1.7088 9.90853 2.19393 5.76747C2.38038 4.17595 3.66941 2.9082 5.27858 2.72864Z" fill="black"/>
+                </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                <svg width="24" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3975 7.178C13.0957 6.994 12.7198 6.98918 12.4136 7.16539C12.1073 7.3416 11.918 7.67159 11.918 8.02923V15.9708C11.918 16.3284 12.1073 16.6584 12.4136 16.8346C12.7198 17.0108 13.0957 17.006 13.3975 16.822L19.9102 12.8512C20.2044 12.6718 20.3845 12.3487 20.3845 12C20.3845 11.6513 20.2044 11.3282 19.9102 11.1488L13.3975 7.178ZM17.5088 12L13.8718 14.2175V9.78252L17.5088 12Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.0526 2.26007C17.6909 1.91331 13.3091 1.91331 8.94741 2.26007L6.02882 2.4921C4.25403 2.63319 2.80211 3.98485 2.50874 5.76911C1.83042 9.89444 1.83042 14.1056 2.50874 18.2309C2.80211 20.0152 4.25403 21.3668 6.02882 21.5079L8.94741 21.7399C13.3091 22.0867 17.6909 22.0867 22.0526 21.7399L24.9712 21.5079C26.746 21.3668 28.1979 20.0152 28.4913 18.2309C29.1696 14.1056 29.1696 9.89444 28.4913 5.76911C28.1979 3.98485 26.746 2.63319 24.9712 2.4921L22.0526 2.26007ZM9.0998 4.23941C13.3601 3.90071 17.6399 3.90071 21.9002 4.23941L24.8188 4.47143C25.6988 4.5414 26.4187 5.2116 26.5642 6.0963C27.2069 10.005 27.2069 13.995 26.5642 17.9037C26.4187 18.7884 25.6988 19.4586 24.8188 19.5286L21.9002 19.7606C17.6399 20.0993 13.3601 20.0993 9.0998 19.7606L6.18121 19.5286C5.30121 19.4586 4.58129 18.7884 4.43582 17.9037C3.79313 13.995 3.79313 10.005 4.43582 6.0963C4.58129 5.2116 5.3012 4.5414 6.18121 4.47143L9.0998 4.23941Z" fill="black"/>
+                </svg>
+                </a></li>
+              <li>
+                  <a href="#">
+                    <svg width="24" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.8324 3.73483C12.9552 2.62404 14.478 2 16.0658 2H19.1447C19.6171 2 20 2.37884 20 2.84615V6.90769C20 7.37501 19.6171 7.75385 19.1447 7.75385H16.0658C16.0204 7.75385 15.9769 7.77168 15.9448 7.80341C15.9128 7.83515 15.8947 7.87819 15.8947 7.92308V10.1231H19.1447C19.4081 10.1231 19.6568 10.2431 19.8189 10.4485C19.9809 10.6539 20.0383 10.9217 19.9745 11.1745L18.9481 15.236C18.853 15.6127 18.5109 15.8769 18.1184 15.8769H15.8947V23.1538C15.8947 23.6212 15.5118 24 15.0395 24H10.9342C10.4619 24 10.0789 23.6212 10.0789 23.1538V15.8769H7.85526C7.38291 15.8769 7 15.4981 7 15.0308V10.9692C7 10.5019 7.38291 10.1231 7.85526 10.1231H10.0789V7.92308C10.0789 6.35218 10.7097 4.84562 11.8324 3.73483ZM16.0658 3.69231C14.9316 3.69231 13.8439 4.13805 13.042 4.93147C12.24 5.72489 11.7895 6.80101 11.7895 7.92308V10.9692C11.7895 11.4365 11.4066 11.8154 10.9342 11.8154H8.71053V14.1846H10.9342C11.4066 14.1846 11.7895 14.5635 11.7895 15.0308V22.3077H14.1842V15.0308C14.1842 14.5635 14.5671 14.1846 15.0395 14.1846H17.4506L18.0493 11.8154H15.0395C14.5671 11.8154 14.1842 11.4365 14.1842 10.9692V7.92308C14.1842 7.42937 14.3824 6.95588 14.7353 6.60677C15.0882 6.25767 15.5668 6.06154 16.0658 6.06154H18.2895V3.69231H16.0658Z" fill="black"/>
+                    </svg>
+                  </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
